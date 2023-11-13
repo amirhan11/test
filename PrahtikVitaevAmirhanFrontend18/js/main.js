@@ -1,8 +1,20 @@
 // просто задание
-let 1textamir = dale;
-let 1-textamir = 1dale;
+let dali = '28.02.1999';
 
-let textDali = textdali;
-let text_dali = textDali;
+Number
 
-const amir = dali
+let name = prompt('Как тебя зовут')
+let address = prompt('Адрес:')
+let phone = prompt('Номер телефона')
+
+let text = `Студент${name}. Адрес:${address}, Номер телефона:${phone}`
+
+console.log(text)
+
+
+let ruСoin = 0.0011;
+let coin = 1000;
+let usaCoin = ruСoin * coin;
+
+console.log(usaCoin)
+
