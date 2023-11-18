@@ -56,7 +56,7 @@ body{
 }
 .btn:hover{
     background-color: transparent!important;
-    color: #CAA892!important;
+    color: #302822!important;
     cursor: pointer!important;
     transition: all 0.3s!important;
 }
