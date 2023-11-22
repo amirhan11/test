@@ -71,43 +71,108 @@
 // }
     
 
+// GG
+
+
+// function num(){
+//     const a = 11
+//     if(a > 10){
+//         console.log('константа не меньше 10')
+//     }else{console.log('константа меньше 10')}
+// }
+// num()
 
 
 
 
+// function shoowMessage(){
+//     alert('Привет, Мир')
+// }
+// shoowMessage()
 
-function num(){
-    const a = 11
-    if(a > 10){
-        console.log('константа не меньше 10')
-    }else{console.log('константа меньше 10')}
+
+
+
+// function shoow(){
+//     console.log('JavaScript')
+// }
+// shoow()
+
+
+
+// const text = 'Hi lorem how are you'
+// function cheсkText(fn){
+//     if(fn.includes('lorem')){
+//         console.log('У вас ошибка в тексте')
+//     }else{
+//         console.log(`Содержимое переменной: ${fn}`)
+//     }
+// }
+// cheсkText(text)
+
+
+
+
+let name = 'Amirhan'; //string
+
+const age = 18;
+
+let dali = age > 15 ? `Привет ${name}` : 'доступ запрещен'
+console.log(dali)
+
+// if(age >= 15){
+//     console.log(`Привет ${name}`)
+// }else{
+//     console.log('доступ запрещен')
+// };
+
+
+
+function viewMoney(){
+    console.log('Вот вам 10$')
 }
-num()
+viewMoney()
 
 
+function getMoney(cash){
 
-
-function shoowMessage(){
-    alert('Привет, Мир')
+    console.log(`Вот вам ${cash}$`)
 }
-shoowMessage()
+getMoney(2455)
 
 
 
-
-function shoow(){
-    console.log('JavaScript')
+function getSquare(a,b){
+    console.log(Math.pow(a,b))
 }
-shoow()
+getSquare(2,6)
+
+
+function getnambers(a,b,c,d){
+    console.log(Math.max(a,b,c,d))
+}
+getnambers(4356,4588,456,234,)
+
+
+function getDiscriminant(a,b,c){
+    let d = b**2 - 4*a*c
+    console.log(d)
+}
+getDiscriminant(2,4,5)
 
 
 
-const text = 'Hi lorem how are you'
-function cheсkText(fn){
-    if(fn.includes('lorem')){
-        console.log('У вас ошибка в тексте')
-    }else{
-        console.log(`Содержимое переменной: ${fn}`)
+
+function getDali(a,b){
+   
+    if(a % 2 === 0 && b % 2 === 0){
+        console.log(a * b) 
+    }else if(a % 2 === 1 && b % 2 === 1){
+        console.log(a + b) 
+    }else if(a % 2 === 0 && b % 2 !== 0){
+        console.log(b)
     }
 }
-cheсkText(text)
+getDali(2,9)
+
+
