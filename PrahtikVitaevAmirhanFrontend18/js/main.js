@@ -113,66 +113,103 @@
 
 
 
-let name = 'Amirhan'; //string
+// let name = 'Amirhan'; //string
 
-const age = 18;
+// const age = 18;
 
-let dali = age > 15 ? `Привет ${name}` : 'доступ запрещен'
-console.log(dali)
+// let dali = age > 15 ? `Привет ${name}` : 'доступ запрещен'
+// console.log(dali)
 
-// if(age >= 15){
-//     console.log(`Привет ${name}`)
-// }else{
-//     console.log('доступ запрещен')
-// };
-
-
-
-function viewMoney(){
-    console.log('Вот вам 10$')
-}
-viewMoney()
-
-
-function getMoney(cash){
-
-    console.log(`Вот вам ${cash}$`)
-}
-getMoney(2455)
+// // if(age >= 15){
+// //     console.log(`Привет ${name}`)
+// // }else{
+// //     console.log('доступ запрещен')
+// // };
 
 
 
-function getSquare(a,b){
-    console.log(Math.pow(a,b))
-}
-getSquare(2,6)
+// function viewMoney(){
+//     console.log('Вот вам 10$')
+// }
+// viewMoney()
 
 
-function getnambers(a,b,c,d){
-    console.log(Math.max(a,b,c,d))
-}
-getnambers(4356,4588,456,234,)
+// function getMoney(cash){
 
-
-function getDiscriminant(a,b,c){
-    let d = b**2 - 4*a*c
-    console.log(d)
-}
-getDiscriminant(2,4,5)
+//     console.log(`Вот вам ${cash}$`)
+// }
+// getMoney(2455)
 
 
 
+// function getSquare(a,b){
+//     console.log(Math.pow(a,b))
+// }
+// getSquare(2,6)
 
-function getDali(a,b){
+
+// function getnambers(a,b,c,d){
+//     console.log(Math.max(a,b,c,d))
+// }
+// getnambers(4356,4588,456,234,)
+
+
+// function getDiscriminant(a,b,c){
+//     let d = b**2 - 4*a*c
+//     console.log(d)
+// }
+// getDiscriminant(2,4,5)
+
+
+
+
+// function getDali(a,b){
    
-    if(a % 2 === 0 && b % 2 === 0){
-        console.log(a * b) 
-    }else if(a % 2 === 1 && b % 2 === 1){
-        console.log(a + b) 
-    }else if(a % 2 === 0 && b % 2 !== 0){
-        console.log(b)
-    }
-}
-getDali(2,9)
+//     if(a % 2 === 0 && b % 2 === 0){
+//         console.log(a * b) 
+//     }else if(a % 2 === 1 && b % 2 === 1){
+//         console.log(a + b) 
+//     }else if(a % 2 === 0 && b % 2 !== 0){
+//         console.log(b)
+//     }
+// }
+// getDali(2,9)
 
+
+let a = ['lorem', 123, true, 'ipsum'];
+console.log(a.length)
+
+a.shift()
+a.pop()
+
+
+
+let em = ['amirahan', true, 132, 'dali', 18 ];
+em.unshift( 'lorem', 'text', false)
+
+em.shift()
+em.pop()
+em.pop()
+console.log(em)
+
+
+
+let number = [1, 3, 5, 7, 9]
+
+number[0]++   
+number[1]++       
+number[2]++
+number[3]++
+number[4]++
+
+console.log(number)
+
+
+
+
+
+let dali = ["я","изучаю","java",]
+dali.splice(1,1 ,"знаю")
+
+console.log(dali)
 
