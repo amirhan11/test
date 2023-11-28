@@ -176,40 +176,137 @@
 // getDali(2,9)
 
 
-let a = ['lorem', 123, true, 'ipsum'];
-console.log(a.length)
+// let a = ['lorem', 123, true, 'ipsum'];
+// console.log(a.length)
 
-a.shift()
-a.pop()
-
-
-
-let em = ['amirahan', true, 132, 'dali', 18 ];
-em.unshift( 'lorem', 'text', false)
-
-em.shift()
-em.pop()
-em.pop()
-console.log(em)
+// a.shift()
+// a.pop()
 
 
 
-let number = [1, 3, 5, 7, 9]
+// let em = ['amirahan', true, 132, 'dali', 18 ];
+// em.unshift( 'lorem', 'text', false)
 
-number[0]++   
-number[1]++       
-number[2]++
-number[3]++
-number[4]++
-
-console.log(number)
+// em.shift()
+// em.pop()
+// em.pop()
+// console.log(em)
 
 
 
+// let number = [1, 3, 5, 7, 9]
+
+// number[0]++   
+// number[1]++       
+// number[2]++
+// number[3]++
+// number[4]++
+
+// console.log(number)
 
 
-let dali = ["я","изучаю","java",]
-dali.splice(1,1 ,"знаю")
 
-console.log(dali)
 
+
+// let dali = ["я","изучаю","java",]
+// dali.splice(1,1 ,"знаю")
+
+// console.log(dali)
+
+
+
+let arr = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100]
+
+arr.forEach(function(index){
+    if(index % 2 !== 0){
+        console.log(index)
+    }
+})
+
+
+let text = [ 'lorem ipsum', 'javascript', 'php', 'css', 'react', 'git', 'html', 'mysql']
+
+let text1 = text.filter(function(index){
+    return index.length < 4
+})
+console.log(text1)
+
+
+
+let number = [1, -3, 5, 6, -7, 8, 9, -11]
+
+let number1 = number.filter(function(index){
+    if(index <= 0){
+        return index
+    }
+})
+console.log(number1)
+
+
+
+
+let dali1 = [10, 2762, 0.42, 192, 3, 28, 1125, 2018, 34, 66, 100]
+
+let dali2 = dali1.filter(function(index){
+    if(index % 2 === 0){
+        return index
+    }
+})
+console.log(dali2)
+
+
+
+
+
+let texte =  ['lorem ipsum', 'javatcript', 'php', 'css', 'react', 'git', 'html', 'mysql']
+
+let texte1 = texte.filter(function(index){
+    if(index.length !== 3){
+        return index
+    }
+})
+console.log(texte1)
+
+
+
+
+let fas = [5, 6, 7, 8, 9]
+
+let fas1 = fas.map(function(index){
+    return index * index
+})
+console.log(fas1)
+
+
+
+
+let fol = [{a: 10, b: 5}, {a: 20, b: 22}, {a: 131, b:55}]
+
+let fol1 = fol.map(function(item,){
+    return  item.a + item.b
+})
+console.log(fol1)
+
+
+
+
+
+let fil = [-13, 0, 12, 1662, -0.32, -102, -2]
+let fil1 = fil.filter(function(item){
+    return item < 0
+});
+
+    fil1 = fil1.reduce(function(sum, item){
+        return sum + item
+    },0)
+    console.log(fil1)
+
+
+
+
+
+let i = [ {x: 10, y: 'lorem'}, {x: 21, y: 'lorem'}, {x: -17, y: 'lorem'}, {x: 156, y: 'lorem'}]
+    i = i.reduce(function(sum,item){
+        return item.x + sum
+    },0)
+console.log(i)
